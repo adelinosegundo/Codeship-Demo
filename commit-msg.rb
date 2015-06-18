@@ -5,8 +5,7 @@ require 'json'
 #CONFIG YOUR STUFF HERE
 @in_development_issue_label = "em implementação"
 
-@issues = 'https://api.github.com/repos/IgorMarques/ATM-Exercise/issues'
-
+@issues = 'https://api.github.com/adelinosegundo/gcm-bank/issues'
 @issue_not_in_development_message = "MENSAGEM DE COMMIT INVÁLIDA: A issue referenciada não existe ou não está marcada como \"#{@in_development_issue_label}\"."
 
 @issue_not_referenced_message = "MENSAGEM DE COMMIT INVÁLIDA: Uma issue deve ser referenciada em seu commit"
